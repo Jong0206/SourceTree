@@ -23,6 +23,12 @@ class WindowClass(QMainWindow, form_class) :
         #Label에 있는 글자를 가져오는 메서드
         print(self.lbl_Test.text())
 
+
+# 브랜치 변경하기
+# - 브랜치란 :  기존 내용을 유지한 체 새로운 내용을 추가하고 싶을 때 사용한다.
+# - 체크아웃 : 특정 브랜치로 돌아가고 싶을 때 사용.
+# - 소스트리의 체크아웃 : 브랜치 이름을 더블 클릭하는 것만으로 체크아웃이 가능
+
 if __name__ == "__main__" :
     app = QApplication(sys.argv)
     myWindow = WindowClass()
