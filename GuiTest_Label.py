@@ -23,6 +23,8 @@ class WindowClass(QMainWindow, form_class) :
         #Label에 있는 글자를 가져오는 메서드
         print(self.lbl_Test.text())
 
+# 파일의 내용 되돌리기
+# - 특정 파일의 내용을 마지막 커밋으로 돌리고 싶다면 해당 파일 선택 후 '코드 뭉치 버리기' 선택
 if __name__ == "__main__" :
     app = QApplication(sys.argv)
     myWindow = WindowClass()
