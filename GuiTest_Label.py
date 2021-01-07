@@ -46,6 +46,11 @@ class WindowClass(QMainWindow, form_class) :
 #충돌 해결하기
 # - 제일 중요한 점: 겁내지 말아요!
 
+# reset 사용하기
+# - 장점1 : 쉽다
+# - 단점1 : 하지만 커밋이 날아간다.
+# - 단점2 : 강제 푸시가 필요하다.
+
 
 if __name__ == "__main__" :
     app = QApplication(sys.argv)
