@@ -43,6 +43,9 @@ class WindowClass(QMainWindow, form_class) :
 # - 진짜 병합이 필요해 진다.
 # - 충돌이 안 나면 좋은데, 충돌이 나도 겁내지 말자
 
+#충돌 해결하기
+# - 제일 중요한 점: 겁내지 말아요!
+
 
 if __name__ == "__main__" :
     app = QApplication(sys.argv)
