@@ -51,6 +51,11 @@ class WindowClass(QMainWindow, form_class) :
 # - 단점1 : 하지만 커밋이 날아간다.
 # - 단점2 : 강제 푸시가 필요하다.
 
+# 브랜치 만들어서 되돌리기
+# - reset과는 달리 내용이 사라지지 않는다.
+# - 장점 : 쉽다.
+# - 단점 : 트리가 지저분해진다.
+
 
 if __name__ == "__main__" :
     app = QApplication(sys.argv)
