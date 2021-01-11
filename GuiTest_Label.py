@@ -56,6 +56,11 @@ class WindowClass(QMainWindow, form_class) :
 # - 장점 : 쉽다.
 # - 단점 : 트리가 지저분해진다.
 
+# revert
+# - 역시 커밋은 없어지지 않는다.
+# - 장점 : 가장 정석적
+# - 단점 : 충돌이 날 수 있다.
+
 
 if __name__ == "__main__" :
     app = QApplication(sys.argv)
