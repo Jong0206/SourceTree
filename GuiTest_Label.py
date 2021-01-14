@@ -56,6 +56,8 @@ class WindowClass(QMainWindow, form_class) :
 # - 장점 : 쉽다.
 # - 단점 : 트리가 지저분해진다.
 
+# 버전이 잘 저장되었는지 확인합니다.
+
 
 if __name__ == "__main__" :
     app = QApplication(sys.argv)
